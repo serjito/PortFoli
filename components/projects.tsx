@@ -13,6 +13,15 @@ import { useLanguage } from '@/lib/language-context';
 const projects = [
   {
     id: 1,
+    translationKey: 'project.frontend',
+    image:
+      'https://jp0572bw16.ufs.sh/f/diTndS4h0HxdfYydc2sHj8VUtYSXGnsa7DJfreWhEQuF1o3v',
+    tags: ['Nextjs', 'TypeScript', 'Tailwind CSS'],
+    category: 'frontend',
+    demo: 'https://sergiomd.es/',
+  },
+  {
+    id: 2,
     translationKey: 'project.renovatAutomate',
     image:
       'https://jp0572bw16.ufs.sh/f/diTndS4h0HxdDFKF0rNvFWcqXKjJ5QkimOTuMhZYGEtsrIfp',
@@ -38,7 +47,7 @@ const projects = [
     demo: 'https://monalisaterrassa.com/',
   },
   {
-    id: 4,
+    id: 5,
     translationKey: 'project.vivaconsultors',
     image:
       'https://jp0572bw16.ufs.sh/f/diTndS4h0Hxd9n0AAxprZQqHtUgMGfsEdDmSXPNycB8akw1r',
@@ -55,7 +64,7 @@ const projects = [
     demo: 'https://vivaconsultors.vercel.app/',
   },
   {
-    id: 5,
+    id: 4,
     translationKey: 'project.frontend',
     image:
       'https://jp0572bw16.ufs.sh/f/diTndS4h0HxdHdXyZF6m1hXYi6PKpnZS38LvF2ujeToQfOUW',

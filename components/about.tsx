@@ -45,7 +45,7 @@ export function About() {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-blue-500 rounded-xl blur opacity-25"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden">
                 <Image
-                  src="/sergio.jpg"
+                  src="https://jp0572bw16.ufs.sh/f/diTndS4h0HxdAZVfqmt0iMVE3Lcmn4ZWGtYB1oRF2K9hjCfe"
                   alt="Sergio md"
                   fill
                   className="object-cover"

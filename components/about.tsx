@@ -21,7 +21,7 @@ export function About() {
   };
 
   return (
-    <section id="about" className="py-20 bg-muted/30">
+    <section id="about" className="py-20 bg-muted/30 px-2">
       <div className="container">
         <motion.div
           initial="hidden"

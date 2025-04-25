@@ -72,7 +72,7 @@ export function Skills() {
   };
 
   return (
-    <section id="skills" className="py-20 bg-muted/30">
+    <section id="skills" className="py-20 bg-muted/30 px-2">
       <div className="container">
         <motion.div
           initial="hidden"

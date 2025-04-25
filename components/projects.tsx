@@ -49,7 +49,8 @@ const projects = [
   {
     id: 5,
     translationKey: 'project.vivaconsultors',
-    image: 'https://youtu.be/4BjkuormUlA',
+    image:
+      'https://jp0572bw16.ufs.sh/f/diTndS4h0Hxd9n0AAxprZQqHtUgMGfsEdDmSXPNycB8akw1r',
     tags: [
       'Next.js',
       'TypeScript',
@@ -60,7 +61,7 @@ const projects = [
       'Make',
     ],
     category: 'fullstack',
-    demo: 'https://vivaconsultors.vercel.app/',
+    demo: 'https://youtu.be/4BjkuormUlA',
   },
   {
     id: 4,
@@ -98,7 +99,7 @@ export function Projects() {
   };
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20 px-2">
       <div className="container">
         <motion.div
           initial="hidden"

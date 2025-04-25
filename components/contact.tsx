@@ -99,7 +99,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 px-2">
       <div className="container">
         <motion.div
           initial="hidden"

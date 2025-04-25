@@ -65,7 +65,7 @@ export function About() {
             <p className="text-muted-foreground">{t('about.description1')}</p>
             <p className="text-muted-foreground">{t('about.description2')}</p>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 pr-2 md:pr-0">
               <div className="space-y-1">
                 <p className="font-medium">{t('about.name')}:</p>
                 <p className="text-muted-foreground">Sergio Matamoro Diaz</p>

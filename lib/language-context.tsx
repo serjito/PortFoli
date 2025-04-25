@@ -82,7 +82,7 @@ const translations = {
       'A comprehensive overview of my technical expertise and tools I work with.',
     'skills.category.frontend': 'Frontend',
     'skills.category.backend': 'Backend',
-    'skills.category.tools': 'Tools & Testing',
+    'skills.category.tools': 'Tools',
     'skills.expert': 'Expert in',
 
     // Contact
@@ -179,7 +179,7 @@ const translations = {
       'Una visión completa de mi experiencia técnica y las herramientas con las que trabajo.',
     'skills.category.frontend': 'Frontend',
     'skills.category.backend': 'Backend',
-    'skills.category.tools': 'Herramientas y Testing',
+    'skills.category.tools': 'Herramientas',
     'skills.expert': 'Experto en',
 
     // Contact

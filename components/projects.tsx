@@ -35,7 +35,7 @@ const projects = [
       'n8n',
     ],
     category: 'fullstack',
-    demo: 'https://renovat-automate.vercel.app/',
+    demo: 'https://youtu.be/siqCQ1CRbBQ',
   },
   {
     id: 3,
@@ -49,8 +49,7 @@ const projects = [
   {
     id: 5,
     translationKey: 'project.vivaconsultors',
-    image:
-      'https://jp0572bw16.ufs.sh/f/diTndS4h0Hxd9n0AAxprZQqHtUgMGfsEdDmSXPNycB8akw1r',
+    image: 'https://youtu.be/4BjkuormUlA',
     tags: [
       'Next.js',
       'TypeScript',

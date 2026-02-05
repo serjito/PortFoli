@@ -109,7 +109,7 @@ export function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold mb-4">{t('contact.title')}</h2>
-          <div className="h-1 w-20 bg-primary mx-auto rounded"></div>
+          <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded" />
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
             {t('contact.description')}
           </p>
@@ -145,13 +145,6 @@ export function Contact() {
                     <p className="text-muted-foreground">
                       sergiomdpro@gmail.com
                     </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Phone className="h-5 w-5 text-primary mt-0.5" />
-                  <div>
-                    <h4 className="font-medium">{t('contact.form.phone')}</h4>
-                    <p className="text-muted-foreground">669 34 53 64</p>
                   </div>
                 </div>
               </CardContent>

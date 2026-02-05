@@ -10,7 +10,7 @@ export function Footer() {
     <footer className="border-t py-12 bg-muted/30 p-6">
       <div className="container grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-4">
-          <h3 className="font-bold text-xl bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent">
+          <h3 className="font-bold text-xl gradient-text">
             Sergio Matamoro
           </h3>
           <p className="text-muted-foreground max-w-xs">
@@ -78,7 +78,7 @@ export function Footer() {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="sergiomdpro@gmail.com"
+              href="mailto:sergiomdpro@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-5 w-5" />
@@ -92,18 +92,18 @@ export function Footer() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="#"
+                href="/privacy"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Privacy Policy
+                {t('footer.privacy')}
               </Link>
             </li>
             <li>
               <Link
-                href="#"
+                href="/terms"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Terms of Service
+                {t('footer.terms')}
               </Link>
             </li>
           </ul>

@@ -71,16 +71,8 @@ export function Contact() {
         throw new Error('Error al enviar el mensaje');
       }
 
-      const data = await response.json();
-
       toast.success('✅ Tu mensaje ha sido enviado con éxito.');
-
-      // Opcional: Muestra enlace de vista previa (en desarrollo con nodemailer test)
-      if (data.preview) {
-        console.log('🔍 Preview URL:', data.preview);
-      }
-
-      form.reset(); // Limpiar el formulario
+      form.reset();
     } catch (error) {
       console.error(error);
       toast.error('❌ Hubo un error al enviar tu mensaje. Inténtalo de nuevo.');

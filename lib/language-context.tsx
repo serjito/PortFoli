@@ -21,8 +21,9 @@ const translations = {
 
     // Hero
     'hero.greeting': "Hi, I'm",
+    'hero.eyebrow': 'Fullstack Developer & Automation Specialist',
     'hero.role':
-      'A fullstack developer passionate about creating beautiful, functional, and user-centered digital experiences.',
+      'I build web applications and connect them to automated workflows — from idea to production, end to end.',
     'hero.available': 'Available for projects',
     'hero.cta.work': 'View My Work',
     'hero.cta.contact': 'Contact Me',
@@ -281,8 +282,9 @@ const translations = {
 
     // Hero
     'hero.greeting': 'Hola, soy',
+    'hero.eyebrow': 'Desarrollador Fullstack & Automatizaciones',
     'hero.role':
-      'Un desarrollador fullstack apasionado por crear experiencias digitales hermosas, funcionales y centradas en el usuario.',
+      'Construyo aplicaciones web y las conecto a flujos automatizados — de la idea a producción, de principio a fin.',
     'hero.available': 'Disponible para proyectos',
     'hero.cta.work': 'Ver Mi Trabajo',
     'hero.cta.contact': 'Contactar',

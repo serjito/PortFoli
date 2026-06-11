@@ -33,3 +33,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# =========================
+# Claude Code (local)
+# =========================
+.claude/
+
+# =========================
+# Agentes locales
+# =========================
+.agents/
+
+# =========================
+# Uploaded documents (local storage)
+# =========================
+uploads/
+/documents/

@@ -176,7 +176,7 @@ export function Projects() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold mb-4">{t('projects.title')}</h2>
-          <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded" />
+          <div className="h-0.5 w-10 bg-primary mx-auto rounded" />
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
             {t('projects.description')}
           </p>
@@ -198,8 +198,8 @@ export function Projects() {
               }
               className={`rounded-full transition-all duration-300 ${
                 activeCategory === category.value
-                  ? 'bg-gradient-to-r from-blue-600 to-cyan-500 text-white border-0 shadow-lg'
-                  : 'hover:border-blue-400'
+                  ? 'bg-primary text-white border-0 shadow-lg'
+                  : 'hover:border-primary/50'
               }`}
             >
               {t(category.label)}
@@ -224,7 +224,7 @@ export function Projects() {
               }}
             >
               <Card
-                className="overflow-hidden h-full flex flex-col border-muted group hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-500 cursor-pointer"
+                className="overflow-hidden h-full flex flex-col border-border/60 group hover:shadow-xl hover:shadow-primary/10 transition-all duration-500 cursor-pointer"
                 onClick={() => setSelectedProject(project)}
               >
                 {/* Image container with overlay */}
@@ -254,8 +254,8 @@ export function Projects() {
                     <Badge
                       className={`${
                         project.category === 'fullstack'
-                          ? 'bg-gradient-to-r from-blue-600 to-sky-500'
-                          : 'bg-gradient-to-r from-blue-600 to-cyan-600'
+                          ? 'bg-gradient-to-r from-orange-500 to-amber-400'
+                          : 'bg-gradient-to-r from-orange-400 to-amber-300'
                       } text-white border-0`}
                     >
                       {project.category === 'fullstack'
@@ -266,7 +266,7 @@ export function Projects() {
                 </div>
 
                 <CardContent className="flex-grow flex flex-col p-6">
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
                     {t(project.translationKey)}
                   </h3>
                   <p className="text-muted-foreground mb-4 flex-grow text-sm line-clamp-2">
@@ -277,7 +277,7 @@ export function Projects() {
                       <Badge
                         key={tag}
                         variant="secondary"
-                        className="text-xs hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors"
+                        className="text-xs hover:bg-primary/10 transition-colors"
                       >
                         {tag}
                       </Badge>
@@ -417,7 +417,7 @@ export function Projects() {
                   {selectedProject.demo && (
                     <Button
                       asChild
-                      className="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white"
+                      className="text-white"
                     >
                       <Link
                         href={selectedProject.demo}

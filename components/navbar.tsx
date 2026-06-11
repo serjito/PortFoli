@@ -80,19 +80,18 @@ export function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className="relative px-3 lg:px-4 py-2 text-sm font-medium transition-colors hover:text-blue-600 dark:hover:text-blue-400 whitespace-nowrap"
+              className="relative px-3 lg:px-4 py-2 text-sm font-medium transition-colors hover:text-primary whitespace-nowrap"
             >
               {activeSection === item.href && (
                 <motion.span
                   layoutId="activeSection"
-                  className="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-xl -z-10"
+                  className="absolute inset-0 bg-primary/8 dark:bg-primary/12 rounded-xl -z-10"
                   transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
                 />
               )}
               <span
                 className={cn(
-                  activeSection === item.href &&
-                    'text-blue-600 dark:text-blue-400'
+                  activeSection === item.href && 'text-primary'
                 )}
               >
                 {t(item.label)}
@@ -130,8 +129,8 @@ export function Navbar() {
                       className={cn(
                         'text-lg font-medium px-4 py-3 rounded-xl transition-colors',
                         activeSection === item.href
-                          ? 'text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-900/30'
-                          : 'hover:bg-gray-100 dark:hover:bg-gray-800'
+                          ? 'text-primary bg-primary/8'
+                          : 'hover:bg-muted'
                       )}
                     >
                       {t(item.label)}

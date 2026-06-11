@@ -101,7 +101,7 @@ export function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold mb-4">{t('contact.title')}</h2>
-          <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded" />
+          <div className="h-0.5 w-10 bg-primary mx-auto rounded" />
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
             {t('contact.description')}
           </p>
